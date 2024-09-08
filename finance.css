@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    /* hapus border dibawah saat selesai */
+    /* border: dashed;
+    border-width: 0.1px;
+    border-color: red; */
+}
+:root {
+    --color-blue: rgb(48,96,232);
+    --color-slateblue: rgb(68, 110, 228);
+}
+/* Halaman 1 (hero) */
+
+.container {
+    background-color: var(--color-blue);
+    background-image: linear-gradient(to right, rgb(48,96,232), rgb(36, 51, 149));
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+}
+.container .container-isi {
+    /* background-color: rgb(39, 114, 228); */
+    width: 86%;
+    height: auto;
+    margin: auto;
+}
+
+/* bar navigasi */
+
+.container .container-isi .navigasi {
+    /* background-color: rgb(212, 128, 128); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+    margin-bottom: 74px;
+}
+.container .container-isi .navigasi .logo {
+    color: white;
+    font-size: 24px;;
+    font-weight: bold;
+    
+}
+.container .container-isi .navigasi .menu ul li {
+    display: inline;
+    margin: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.container .container-isi .navigasi .menu ul li:hover {
+    text-decoration: underline;
+}
+.container .container-isi .navigasi .kontak {
+    color: white;
+}
+
+/* text hero */
+
+.container .container-isi .hero {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .container-isi .hero h1 {
+    color: white;
+    margin-bottom: 16px;
+    font-size: 48px;
+    line-height: 55px;
+}
+.container .container-isi .hero p {
+    color: rgb(200, 200, 200);
+    margin-bottom: 44px;
+}
+.container .container-isi .hero img {
+    width: 550px;
+    border-radius: 10px;
+}
+.container .container-isi .hero .hero-konten {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+/* button hero */
+
+.container .container-isi .hero-konten button {
+    border: none;
+    width: 129px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.container .container-isi .hero-konten button.kontak {
+    border: solid 1px white;
+    color: rgb(48,96,232);
+    background-color: white;
+    transition:background-color 0.3s, color 0.3s;
+}
+.container .container-isi .hero-konten button.kontak:hover {
+    color: white;
+    background: none;
+}
+.container .container-isi .hero-konten button.watch {
+    background: none;
+    color: white;
+}
+
+/* Halaman 2 */
+/* Halaman 2 */
+/* Halaman 2 */
+
+.container2 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-isi2 {
+    width: 85%;
+    height: 455px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.container-isi2 img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+/* konten & teks */
+
+.teks .icon {
+    color: var(--color-blue);
+    font-size: 24px;
+    box-shadow: 0 0 4px rgba(44,44,44, 0.2);
+    padding: 13px 13px 0 13px;
+    height: 45px;
+    margin-left: 8px;
+    margin-right: 28px;
+}
+.container-isi2 .page2-konten {
+    display: flex;
+    flex-direction: column;
+}
+.page2-konten .teks {
+    width: 350px;
+    line-height: 26px;
+}
+.teks p {
+    color: rgb(88,88,88);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.teks .konten2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.teks .list {
+    width: 400px;
+    margin-bottom: 16px;
+}
+.teks .title {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+/* Halaman 3 */
+/* Halaman 3 */
+/* Halaman 3 */
+
+.container3 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(48,96,232);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-isi3 {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding:20px;
+}
+.teks2 {
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+.teks2 .icon {
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    padding: 7px 13px 0 13px;
+    height: 45px;
+    margin-right: 8px;
+}
+.teks2 .list {
+    color: rgb(200, 200, 200);
+}
+.teks2 .title {
+    color: white;
+    font-size: 18px;;
+    padding-bottom: 12px;
+}
+
+/* Halaman 4 */
+/* Halaman 4 */
+/* Halaman 4 */
+
+.container4 {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-isi4 {
+    width: 85%;
+    height: 455px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.container-isi4 img {
+    width: 580px;
+    border-radius: 10px;
+}
+.teks3 .icon {
+    color: var(--color-blue);
+    font-size: 24px;
+    box-shadow: 0 0 4px rgba(44,44,44, 0.2);
+    padding: 13px 13px 0 13px;
+    height: 45px;
+    margin-left: 8px;
+    margin-right: 28px;
+}
+.container-isi2 .page4-konten {
+    display: flex;
+    flex-direction: column;
+}
+.page4-konten .teks3 {
+    width: 400px;
+    line-height: 24px;
+}
+.teks3 p {
+    color: rgb(88,88,88);
+    font-size: 14px;
+}
+.teks3 .konten2 {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.teks3 .list {
+    width: 400px;
+    margin-bottom: 16px;
+}
+.teks3 .title1 {
+    font-size: 24px;
+    padding-bottom: 22px;
+}
+.teks3 .title {
+    font-size: 24px;
+}
+
+/* Halaman 5 */ 
+/* Halaman 5 */
+/* Halaman 5 */
+
+.container5 {
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container-isi5 {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+}
+.container-isi5 .heading {
+    width: 380px;
+    text-align: center;
+    margin: auto;
+}
+.container-isi5 .heading h2 {
+    color: rgb(48,96,232);
+    font-size: 28px;
+}
+.container-isi5 .heading p {
+    color: rgb(88,88,88);
+    font-size: 14px;
+}
+.grid-parent {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.grid-child {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.grid-child .icon3 {
+    font-size: 55px;
+    color: rgb(48,96,232);
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 100px 200px 200px 200px;
+    height:40px;
+}
+.grid-child .title {
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.grid-child p {
+    color: rgb(88,88,88);
+    margin-bottom: 30px;
+}
+.grid-child button {
+    background-color: transparent;
+    color: rgb(48,96,232);
+    padding: 10px 20px;
+    border: solid 1px rgb(48,96,232);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.25s, background-color 0.25s, box-shadow 0.1s;
+}
+.grid-child button:hover {
+    background-color: rgb(48,96,232);
+    color: white;
+}
+.grid-child button:active {
+    box-shadow: 0 0 0px 5px rgba(48,96,232,0.3);
+}
+/* Halaman 6 */
+.container6 {
+    background-image: url("img-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.container6blue {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: auto;
+    background-color: var(--color-blue);
+    opacity: 0.95;
+}
+.container-isi6 {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-isi6 .text {
+    width: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.container-isi6 .text .title {
+    font-size: 26px;
+    font-weight: 700;
+}
+.container-isi6 button {
+    border: solid 1px white;
+    color: var(--color-blue);
+    background-color: white;
+    transition:background-color 0.3s, color 0.3s;
+    width: 129px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.container-isi6 button:hover {
+    color: white;
+    background: none;
+}
+/* HALAMAN 7 */
+/* HALAMAN 7 */
+/* HALAMAN 7 */
+.container7 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.container-isi7 {
+    width:90%;
+    margin: auto;
+    text-align: center;
+}
+.container-isi7 .header {
+    width: 380px;
+    margin: auto;
+}
+.container-isi7 h2 {
+    color: var(--color-blue);
+    font-size: 28px;
+}
+.container-isi7 p {
+    color: rgb(88,88,88);
+    font-size: 14px;
+}
+.container-isi7 div.scroll-container {
+    background-color: #FFFF;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 20px;
+}
+/* FOOTER */
+.footer {
+    background-color: var(--color-blue);
+    width:100%;
+    height: 350px;
+    padding: 60px 0;
+    margin-bottom: 8vh;
+}
+.footer-isi {
+    width: 87%;
+    margin: auto;
+    display: flex;
+    gap: 5vw;
+    margin-bottom: 10vh;
+}
+.foothead {
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.footleft, .footmid, .footright {
+    width: 30%;
+}
+.about, .foothead {
+    color:white;
+}
+.about {
+    text-align: justify;
+}
+.footlink a{
+    color: rgb(194, 194, 194);
+    display: block;
+    margin-bottom: 11px;
+    text-decoration: none;
+}
+.footlink a:hover {
+    color:white;
+}
+.footer p {
+    font-size: 0.85em;
+}
+.footgrid {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    
+}
+.footnav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.footer-isi .social {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.footer-isi .social button {
+    font-size: 14px;
+    width: 44px;
+    height: 44px;
+    background-color: var(--color-slateblue);
+    color: white;
+    border: none;
+    border-radius: 5px;;
+    cursor: pointer;
+    transition: color 0.25s, background-color 0.25s;
+}
+.footer-isi .social button:hover {
+    color: var(--color-slateblue);
+    background-color: white;
+}
+.footlast {
+    width: 45%;
+    font-size: 0.85em;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+#arashy a{
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+}
+#arashy a:hover {
+    color:white;
+}
